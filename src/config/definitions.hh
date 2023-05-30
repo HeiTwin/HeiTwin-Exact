@@ -1,0 +1,28 @@
+#ifndef DEFINITIONS_HH
+#define DEFINITIONS_HH
+
+enum Strategy {
+  SOLVER = 0,
+  GREEDY_BB = 1,
+  LOCAL_SEARCH = 2,
+};
+
+enum Solver {
+  GREEDY = 0,
+  GREEDYLTH = 1,
+  ORDERED = 2,
+  RED_DEG_LIMIT = 3,
+  ONLY_REDUCTIONS = 4,
+  BRANCH_AND_BOUND = 5,
+  TREE_CONTRACT = 6,
+  RED_DEG_LIMIT_RANDOM = 7,
+  GREEDY_STRONG = 8,
+  HEURISTIC = 9,
+};
+
+enum Stop_Condition {
+  EXHAUST,
+  ITERATIONS,
+};
+
+#endif  // DEFINITIONS_HH

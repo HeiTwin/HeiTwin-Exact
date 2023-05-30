@@ -1,0 +1,6 @@
+#ifndef CONFIGURATIONS_HH
+#define CONFIGURATIONS_HH
+
+
+
+#endif // CONFIGURATIONS_HH
