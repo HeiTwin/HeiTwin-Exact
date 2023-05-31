@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7988134.svg)](https://doi.org/10.5281/zenodo.7988134)
+
 # HeiTwin-Exact
 HeiTwin-Exact is an exact solver for the twin-width problem. It takes part in the [PACE Challenge 2023](https://pacechallenge.org/2023/).
 
