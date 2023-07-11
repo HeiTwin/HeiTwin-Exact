@@ -4,6 +4,8 @@
 HeiTwin-Exact is an exact solver for the twin-width problem. It takes part in the [PACE Challenge 2023](https://pacechallenge.org/2023/).
 
 ## Description
+A detailed description can be found in the [Paper](paper.pdf).
+
 HeiTwin-Exact implements a Branch & Bound algorithm to compute the twin-width of a graph.
 
 First, reductions are applied, i.e. twins are contracted as this does not affect the solution. Then, the Branch & Bound algorithm is executed on each connected component of the graph (or the complement graph, if it has fewer edges).
